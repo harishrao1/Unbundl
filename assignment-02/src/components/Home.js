@@ -67,7 +67,7 @@ const Home = () => {
   }
   console.log(isMaxItemsReached >= 8);
   const addtocart = () => {
-    if (isMaxItemsReached % 8 === 0) {
+    if (isMaxItemsReached === 8) {
       navigate("/cart");
       //   <Link to="/cart" />;
     } else {
